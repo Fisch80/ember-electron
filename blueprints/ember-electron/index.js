@@ -112,6 +112,7 @@ module.exports = class EmberElectronBlueprint extends Blueprint {
         let tmpLineIndex = lines.indexOf('/tmp');
         let toAdd = [
           '/electron-out',
+          '/electron-livereload',
         ]
           .filter((dir) => !lines.includes(dir));
 
