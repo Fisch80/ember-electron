@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-05-18T00:27:10.775Z'
+    - testem > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-05-18T00:27:10.775Z'
+  'npm:lodash:20180130':
+    - ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2019-05-18T00:27:10.775Z'
+    - ember-inspector > ember-new-computed > ember-cli-babel > broccoli-babel-transpiler > babel-core > lodash:
+        patched: '2019-05-18T00:27:10.775Z'
+    - ember-inspector > ember-new-computed > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2019-05-18T00:27:10.775Z'
+  'npm:mime:20170907':
+    - electron-forge > s3 > mime:
+        patched: '2019-05-18T00:27:10.775Z'
+  'npm:minimatch:20160620':
+    - electron-forge > zip-folder > archiver > glob > minimatch:
+        patched: '2019-05-18T00:27:10.775Z'
+    - ember-inspector > ember-new-computed > ember-cli-babel > broccoli-babel-transpiler > babel-core > minimatch:
+        patched: '2019-05-18T00:27:10.775Z'
+  'npm:ms:20170412':
+    - socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-05-18T00:27:10.775Z'
+    - testem > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-05-18T00:27:10.775Z'
+  'npm:semver:20150403':
+    - electron-forge > electron-windows-store > flatten-packages > semver:
+        patched: '2019-05-18T00:27:10.775Z'
