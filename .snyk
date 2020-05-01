@@ -1,0 +1,66 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > electron-installer-debian > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > electron-installer-flatpak > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > electron-installer-redhat > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > inquirer > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > electron-installer-debian > async > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > electron-installer-flatpak > async > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > electron-installer-redhat > async > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > electron-installer-flatpak > flatpak-bundler > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > electron-windows-store > inquirer > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > tabtab > inquirer > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - broccoli-string-replace > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-register > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - ember-cli-babel > broccoli-babel-transpiler > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - ember-inspector > ember-new-computed > ember-cli-babel > broccoli-babel-transpiler > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
+    - electron-forge > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:27:58.817Z'
